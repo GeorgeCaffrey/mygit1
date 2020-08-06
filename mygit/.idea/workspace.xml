@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="demo:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c60921c-ce04-4d51-a5b7-402887de2227" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/demo.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mygit.iml" />
+      <change beforePath="$PROJECT_DIR$/demo/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/demo/.mvn/wrapper/MavenWrapperDownloader.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/demo/mvnw" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/demo/mvnw.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/demo/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/DemoApplicationTests.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/AcDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/BuyCollDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/CollDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/LendCollDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ManDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/TongJiDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/filter/SessionFilter" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/filter/SessionFilterT.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/AcService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/BuyCollService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CollService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/LendCollService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ManService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/UserService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/doAcMan.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/doBuyColl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/doCollMan.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/doLendColl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/doLoginMan.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/doTongJi.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/doUserMan.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/BaseServlet.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/DBUtil.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vo/Ac.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vo/Coll.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vo/LendBuyTJ.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vo/Man.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vo/User.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vo/buyColl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vo/lendColl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/AlreadyPubActivity.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/BackLogin.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/BuyNoPassExamine.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/BuyPassExamine.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/CollMan.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/NoPassExamineColl.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/PassExamineColl.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/PubActivity.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/SessionNull.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/UpdateColl.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/UpdateUser.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/addCollection.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/buyCollExamine.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/column-basic.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/column-stacked.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/common.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/student.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/styleA.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/styleE.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/error.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/footer.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/03.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/04.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/123.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/140x140.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/170x170.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/background.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/bg-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/black-Linen.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/blue-paper.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/captcha.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/copy_rignt_24.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/extra_clean_paper.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/furley_bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/headT.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/subtle_surface.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/timg.jfif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/indexT.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/Validform_v5.3.2.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/Validform_v5.3.2_min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/jQuery1.7.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.8.2.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery.SuperSlide.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery1.42.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/bootstrap/css/bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/bootstrap/img/glyphicons-halflings-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/bootstrap/img/glyphicons-halflings.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/bootstrap/js/bootstrap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/FontAwesome-Vectors.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/FontAwesome.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/css/font-awesome-ie7.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/css/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/css/font-awesome-ie7.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/css/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/css/prettify.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/css/site.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/font/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/font/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/font/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/font/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/font/museo_slab_300-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/font/museo_slab_300-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/font/museo_slab_500-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/font/museo_slab_500-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/font/proximanova-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/font/proximanova-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/ico/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/js/backbone.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/js/index/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/js/jquery-1.7.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/js/prettify.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-alert.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-button.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-carousel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-collapse.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-dropdown.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-modal.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-popover.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-scrollspy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-tab.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-tooltip.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-transition.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-typeahead.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/js/underscore.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/font-awesome-ie7.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/font-awesome.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/font-site.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/mixins.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/site.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/accordion.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/alerts.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/bootstrap.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/breadcrumbs.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/button-groups.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/buttons.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/carousel.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/close.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/code.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/component-animations.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/dropdowns.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/forms.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/grid.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/hero-unit.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/labels-badges.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/layouts.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/mixins.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/modals.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/navbar.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/navs.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/pager.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/pagination.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/popovers.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/progress-bars.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/reset.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/responsive-1200px-min.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/responsive-767px-max.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/responsive-768px-979px.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/responsive-navbar.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/responsive-utilities.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/responsive.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/scaffolding.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/sprites.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/tables.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/thumbnails.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/tooltip.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/type.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/utilities.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/variables.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/twbs-203/wells.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/assets/less/variables.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/docs/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/font/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/font/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/font/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/font/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/less/font-awesome-ie7.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/less/font-awesome.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/sass/font-awesome.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/font-awesome/sass/font-awesome.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/GPL-LICENSE.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/MIT-LICENSE.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/changelog.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/agenda-views.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/basic-views.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_glass_50_3baae3_1x400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-icons_2694e8_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-icons_3d80b3_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-icons_72a7cf_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-icons_ffffff_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/cupertino/theme.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/default.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/external-dragging.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/gcal.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/json-events.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/json.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/selectable.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/demos/theme.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/fullcalendar/fullcalendar.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/fullcalendar/fullcalendar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/fullcalendar/fullcalendar.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/fullcalendar/fullcalendar.print.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/fullcalendar/gcal.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/jquery/jquery-1.7.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/fullcalendar-1.5.3/jquery/jquery-ui-1.8.17.custom.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/jquery-1.7.2.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/jquery-1.8.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/bootstrap/css/bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/bootstrap/img/glyphicons-halflings-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/bootstrap/img/glyphicons-halflings.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/bootstrap/js/bootstrap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/FontAwesome-Vectors.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/FontAwesome.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/css/font-awesome-ie7.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/css/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/css/font-awesome-ie7.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/css/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/css/prettify.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/css/site.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/font/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/font/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/font/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/font/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/font/museo_slab_300-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/font/museo_slab_300-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/font/museo_slab_500-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/font/museo_slab_500-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/font/proximanova-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/font/proximanova-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/ico/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/js/backbone.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/js/index/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/js/jquery-1.7.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/js/prettify.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-alert.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-button.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-carousel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-collapse.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-dropdown.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-modal.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-popover.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-scrollspy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-tab.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-tooltip.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-transition.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/js/tw-bs-201/bootstrap-typeahead.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/js/underscore.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/font-awesome-ie7.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/font-awesome.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/font-site.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/mixins.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/site.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/accordion.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/alerts.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/bootstrap.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/breadcrumbs.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/button-groups.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/buttons.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/carousel.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/close.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/code.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/component-animations.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/dropdowns.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/forms.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/grid.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/hero-unit.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/labels-badges.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/layouts.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/mixins.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/modals.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/navbar.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/navs.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/pager.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/pagination.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/popovers.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/progress-bars.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/reset.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/responsive-1200px-min.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/responsive-767px-max.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/responsive-768px-979px.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/responsive-navbar.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/responsive-utilities.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/responsive.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/scaffolding.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/sprites.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/tables.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/thumbnails.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/tooltip.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/type.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/utilities.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/variables.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/twbs-203/wells.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/assets/less/variables.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/docs/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/font/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/font/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/font/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/font/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/less/font-awesome-ie7.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/less/font-awesome.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/sass/font-awesome.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/font-awesome/sass/font-awesome.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/GPL-LICENSE.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/MIT-LICENSE.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/changelog.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/agenda-views.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/basic-views.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_glass_50_3baae3_1x400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-icons_2694e8_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-icons_3d80b3_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-icons_72a7cf_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/cupertino/images/ui-icons_ffffff_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/cupertino/theme.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/default.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/external-dragging.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/gcal.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/json-events.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/json.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/selectable.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/demos/theme.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/fullcalendar/fullcalendar.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/fullcalendar/fullcalendar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/fullcalendar/fullcalendar.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/fullcalendar/fullcalendar.print.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/fullcalendar/gcal.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/jquery/jquery-1.7.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/fullcalendar-1.5.3/jquery/jquery-ui-1.8.17.custom.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/jquery-1.7.2.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/lib/jquery-1.8.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/logOut.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/stylesheets/elements.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/stylesheets/theme.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/tj.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/topHead.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/userMan.jsp" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="DemoApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/DemoApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="783">
+              <caret line="31" column="5" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/aqiu/demo/DemoApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/main.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/DemoApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/programfiles/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="F:\programfiles\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="507" />
+    <option name="y" value="46" />
+    <option name="width" value="1409" />
+    <option name="height" value="1088" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mygit" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.37634408" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DemoApplication (1)">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <module name="demo" />
+      <envs />
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.aqiu.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aqiu.demo.DemoApplication" />
+      <module name="demo" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.DemoApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.DemoApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.DemoApplication (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.DemoApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c60921c-ce04-4d51-a5b7-402887de2227" name="Default" comment="" />
+      <created>1596679400464</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596679400464</updated>
+      <workItem from="1596679405801" duration="4107000" />
+      <workItem from="1596692285204" duration="500000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4607000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-11" y="-11" width="2582" height="1576" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4312026" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08867188" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="31" column="5" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aqiu/demo/DemoApplication.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aqiu/demo/ServletInitializer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="31" column="5" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="51" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>demo:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37634408" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37634408" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>demo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37634408" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37634408" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
